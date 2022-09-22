@@ -1,5 +1,5 @@
 @media  screen and (max-width : 750px) {
-    
+    /* -------- header -------- */
     nav > button{
         position: static;
         visibility: visible;
@@ -8,5 +8,24 @@
     nav > div > a{
         display: none;
     }
+    /* ------ header ---------- */
+
+}
+
+@media screen and (max-width : 512px) {
+    
+    /* -------- home start --------= */
+    #home > div {
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    #home p {
+        width: 100%;
+    }
+
 
 }
