@@ -12,8 +12,8 @@
     color: #232323;
 }
 
-.merah{
-    background-color: red;
+.grey{
+    color: #707070;
 }
 
 /* ----- color end -------- */
@@ -127,6 +127,7 @@ main > div{
 
 #home h1{
     font-size: 60px;
+    color: #227AD4;
 }
 
 #home p{
