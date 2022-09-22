@@ -1,0 +1,12 @@
+@media  screen and (max-width : 750px) {
+    
+    nav > button{
+        position: static;
+        visibility: visible;
+    }
+
+    nav > div > a{
+        display: none;
+    }
+
+}
