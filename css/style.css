@@ -16,6 +16,9 @@
     color: #707070;
 }
 
+.biru{
+    color: #227AD4;
+}
 /* ----- color end -------- */
 
 
@@ -136,3 +139,35 @@ main > div{
 #home img{
     width: 350px;
 }
+/* ---------- home end ---------- */
+
+/* ----------- tentang kami ------ */
+
+#tentang {
+    margin: 200px 0 100px 0;
+}
+
+#tentang .pembungkus{
+    display: flex;
+    margin-top: 50px;
+}
+
+#tentang .pembungkus > div{
+    width: 90%;
+    margin: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+
+    justify-content: space-around;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+#tentang img{
+    margin-bottom: 20px;
+}
+
+
+
+/* ---------- tentang kami end ---- */
