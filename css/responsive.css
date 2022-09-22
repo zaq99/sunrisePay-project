@@ -39,8 +39,32 @@
     }
 
     /* ------- about end ----- */
+      /* ------ visi misi start---- */
+      #visi > div{
+        flex-direction: column;
+    }
+
+    #visi > div img{
+        width: 100%;
+    }
+
+    #visi > div .pembungkus{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #visi .icons{
+        width: 40px;
+    }
+
+    #visi .pembungkus p {
+        text-align: justify;
+    }
+    /* ------ visi misi end ----- */
 
 }
+
+/* /////////////////////////////////// */
 
 @media screen and (max-width : 512px) {
     
@@ -75,5 +99,29 @@
     }
 
     /* ------- about end ----- */
+
+    /* ------ visi misi start---- */
+    #visi > div{
+        flex-direction: column;
+    }
+
+    #visi > div img{
+        width: 100%;
+    }
+
+    #visi > div .pembungkus{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #visi .icons{
+        width: 40px;
+    }
+
+    #visi .pembungkus p {
+        text-align: justify;
+        font-size: 14px;
+    }
+    /* ------ visi misi end ----- */
 
 }

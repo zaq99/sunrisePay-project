@@ -24,9 +24,19 @@
 
 #pre-header{
     height: 40px;
-    background: blueviolet;
+    background: linear-gradient(90deg, #28A6FD 47.39%, #227AD4 61.21%);
     color: #fff;
 }
+
+#pre-header a{
+    padding: 2px 40px;
+    border-radius: 20px;
+}
+
+#pre-header a:hover{
+    background-color: #2875c2;
+}
+
 
 
 /* ------ header -------- */
@@ -168,6 +178,15 @@ main > div{
     margin-bottom: 20px;
 }
 
-
-
 /* ---------- tentang kami end ---- */
+
+/* --------- visi misi start ---------- */
+#visi .icons{
+    width: 80px;
+}
+
+#visi .visi-misi{
+    gap: 20px;
+}
+
+/* --------- visi misi end ------------*/
