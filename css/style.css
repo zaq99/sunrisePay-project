@@ -297,3 +297,76 @@ footer > span{
     font-weight: bold;
     color: white;
 }
+
+
+/* /////////// produk page ////////// */
+
+/* ------ banner start ------ */
+.banner > .container {
+    background-color: #F6F9FE;
+}
+
+.banner h5{
+    color: #227AD4;
+}
+
+/* ------ pulsa start ------ */
+#pulsa h6{
+    background-color: #227AD4;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#pulsa img{
+    height: 60px;
+}
+
+/* ------ pulsa start ------ */
+#ewallet{
+    margin-top: 200px;
+}
+
+#ewallet h6{
+    background-color: greenyellow;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#ewallet img{
+    height: 60px;
+}
+
+/* ------ token start ------ */
+#token{
+    margin-top: 200px;
+}
+
+#token h6{
+    background-color: #227AD4;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#token img{
+    height: 60px;
+}
+
+
+/* ------ token start ------ */
+#paket-data{
+    margin-top: 200px;
+}
+
+#paket-data h6{
+    background-color: #bb26a7;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#paket-data img{
+    height: 60px;
+}
