@@ -43,6 +43,7 @@
 header{
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .bayangan{
@@ -207,5 +208,33 @@ main > div{
 /* ---------- mitra end -------------- */
 
 /* ---------- pay service start ----------- */
+
+#pay-service{
+    padding-top: 200px;
+}
+
+#pay-service .pembungkus div {
+    width: 20%;
+    height: 190px;
+    background: linear-gradient(90deg, #1AC9FB -6.44%, #227AD4 100%);
+    padding: 16px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#pay-service .pembungkus div > img {
+    margin-bottom: 16px;
+}
+
+#pay-service .pembungkus div > p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#pay-service .pembungkus div > hr{
+    color: #fff;
+    width: 75%;
+}
 
 /* ---------- pay service end ---------- */
