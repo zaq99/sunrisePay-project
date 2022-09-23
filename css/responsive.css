@@ -136,5 +136,9 @@
         height: 25px;
 
     }
+
+    #mitra .pembungkus img{
+        margin: 0 20px;
+    }
 /* ---------- mitra end -------------- */
 }
