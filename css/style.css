@@ -259,7 +259,16 @@ main > div{
     margin: 50px;
 }
 #kontak .name-maps{
-    width: 500px;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.name-maps p{
+    width: 80%;
+    margin: auto;
 }
 
 #kontak .name-maps > img {
