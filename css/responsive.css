@@ -61,6 +61,35 @@
         text-align: justify;
     }
     /* ------ visi misi end ----- */
+    /* ------- pay service start ----------- */
+    #pay-service .pembungkus{
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+            
+    }
+    /* ------- pay service end -------------- */
+    /* -------- kontak start ---------------- */
+
+    #kontak > div > div{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #kontak .name-maps {
+        width: 100%;
+    }
+
+    #kontak iframe {
+        width: 100%;
+        text-align: center;
+    }
+
+    #kontak .order-now {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* -------- kontak end ---------------- */
 
 }
 
@@ -141,4 +170,36 @@
         margin: 0 20px;
     }
 /* ---------- mitra end -------------- */
+    
+    /* ------- pay service start ----------- */
+    #pay-service .pembungkus{
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        
+    }
+    /* ------- pay service end -------------- */
+
+    /* -------- kontak start ---------------- */
+
+    #kontak > div > div{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #kontak .name-maps {
+        width: 100%;
+    }
+
+    #kontak iframe {
+        width: 100%;
+        text-align: center;
+    }
+
+    #kontak .order-now {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* -------- kontak end ---------------- */
+
 }
